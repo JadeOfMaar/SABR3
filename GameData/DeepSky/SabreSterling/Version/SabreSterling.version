@@ -1,0 +1,37 @@
+{
+	"NAME":"SABR3",
+	"DOWNLOAD":"https://github.com/JadeOfMaar/SABR3/releases",
+	"URL":"https://github.com/JadeOfMaar/SABR3/tree/master/GameData/DeepSky/SabreSterling/Version/SabreSterling.version",
+	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/SABR3/tree/master/GameData/DeepSky/SabreSterling/Version/Changelog.txt",
+	"GITHUB":
+	{
+		"USERNAME":"JadeOfMaar",
+		"REPOSITORY":"https://github.com/JadeOfMaar/SABR3",
+		"ALLOW_PRE_RELEASE":true,
+	},
+	"VERSION":
+	{
+		"MAJOR":0,
+		"MINOR":1,
+		"PATCH":0,
+		"BUILD":0
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR":1,
+		"MINOR":4,
+		"PATCH":3
+	},
+	"KSP_VERSION_MIN":
+	{
+		"MAJOR":1,
+		"MINOR":4,
+		"PATCH":3
+	},
+	"KSP_VERSION_MAX":
+	{
+		"MAJOR":1,
+		"MINOR":4,
+		"PATCH":9
+	}
+}
