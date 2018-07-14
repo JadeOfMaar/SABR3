@@ -12,4 +12,7 @@ The precooler nacelle does not hold fuel but effectively emulates the intercoole
 * Integrates with Cryogenic Engines (WIP)
 * Performance buff for upscaled systems (TBD)
 
-
+### Notes
+* Actual engines are available in composite and in component forms for modularity and grater control over the two engine modes.
+* When attaching the discreet ramjet to attach the discreet rocket nozzle after, avoid using symmetry. Fuel flow doesn't like it and all but one instance of the ramjet and nozzle will be deprived of fuel.
+* Intercooler module is on by default but can be switched off unlike the similar one in Thor Tech.
