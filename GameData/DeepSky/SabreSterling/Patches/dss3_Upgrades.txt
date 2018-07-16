@@ -1,3 +1,5 @@
+// Need to know how to apply root-level upgrades in part
+
 PARTUPGRADE:NEEDS[CommunityTechTree]
 {
 	name = dss3_Ceramics
@@ -21,13 +23,13 @@ PARTUPGRADE:NEEDS[CommunityTechTree]
 			name__ = dss3_Ceramics
 			description__ = Rebuild from advanced ceramics
 			techRequired__ = aerospaceComposites
-			@mass *= 0.81
-			@maxTemp *= 1.222
-			@cost *= 1.3142
+			mass *= 0.81
+			maxTemp *= 1.222
+			cost *= 1.3142
 		}
 	}
 }
-@PART[ds00_int*|ds00_japier*]:HAS[!MODULE[ModuleResourceIntake]]:NEEDS[CommunityTechTree]:FOR[SabreSterling]
+@PART[ds00_int*|ds00_japier*]:NEEDS[CommunityTechTree]:FOR[SabreSterling]
 {
 	showUpgradesInModuleInfo = true
 	UPGRADES
@@ -37,13 +39,13 @@ PARTUPGRADE:NEEDS[CommunityTechTree]
 			name__ = dss3_Ceramics
 			description__ = Rebuild from advanced ceramics
 			techRequired__ = aerospaceComposites
-			@mass *= 0.81
-			@maxTemp *= 1.222
-			@cost *= 1.3142
+			mass *= 0.81
+			maxTemp *= 1.222
+			cost *= 1.3142
 		}
 	}
 }
-@PART:HAS[#title[*cone*]]:NEEDS[CommunityTechTree]:FOR[SabreSterling]
+@PART:HAS[#title[*cone*],#maxTemp[>2700]]:NEEDS[CommunityTechTree]:FOR[SabreSterling]
 {
 	showUpgradesInModuleInfo = true
 	UPGRADES
@@ -53,9 +55,26 @@ PARTUPGRADE:NEEDS[CommunityTechTree]
 			name__ = dss3_Ceramics
 			description__ = Rebuild from advanced ceramics
 			techRequired__ = aerospaceComposites
-			@mass *= 1.222
-			@maxTemp *= 1.222
-			@cost *= 1.3142
+			mass *= 0.81
+			maxTemp *= 1.222
+			cost *= 1.3142
+		}
+	}
+}
+
+@PART:HAS[#title[*cone*],#maxTemp[<2700]]:NEEDS[CommunityTechTree]:FOR[SabreSterling]
+{
+	showUpgradesInModuleInfo = true
+	UPGRADES
+	{
+		UPGRADE
+		{
+			name__ = dss3_Ceramics
+			description__ = Rebuild from advanced ceramics
+			techRequired__ = aerospaceComposites
+			mass = 2700
+			maxTemp *= 1.222
+			cost *= 1.3142
 		}
 	}
 }
@@ -69,9 +88,9 @@ PARTUPGRADE:NEEDS[CommunityTechTree]
 			name__ = dss3_Ceramics
 			description__ = Rebuild from advanced ceramics
 			techRequired__ = aerospaceComposites
-			@mass *= 1.222
-			@maxTemp *= 1.222
-			@cost *= 1.3142
+			mass *= 1.222
+			maxTemp *= 1.222
+			cost *= 1.3142
 		}
 	}
 }
@@ -85,9 +104,9 @@ PARTUPGRADE:NEEDS[CommunityTechTree]
 			name__ = dss3_Ceramics
 			description__ = Rebuild from advanced ceramics
 			techRequired__ = aerospaceComposites
-			@mass *= 1.222
-			@maxTemp *= 1.222
-			@cost *= 1.3142
+			mass *= 0.81
+			maxTemp *= 1.222
+			cost *= 1.3142
 		}
 	}
 }
