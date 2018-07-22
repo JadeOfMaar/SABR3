@@ -9,10 +9,11 @@ The precooler nacelle does not hold fuel but effectively emulates the intercoole
 ### Associations
 * Requires [B9 Part Switch](https://github.com/blowfishpro/B9PartSwitch/releases)
 * Requires [Deep Sky Core](https://github.com/JadeOfMaar/DSCore/releases)
+  * Deep Sky Core requires [Community Resource Pack](https://github.com/BobPalmer/CommunityResourcePack/releases)
 * Integrates with Cryogenic Engines (WIP)
 * Performance buff for upscaled systems (TBD)
 
 ### Notes
-* Actual engines are available in composite and in component forms for modularity and grater control over the two engine modes.
-* When attaching the discreet ramjet to attach the discreet rocket nozzle after, avoid using symmetry. Fuel flow doesn't like it and all but one instance of the ramjet and nozzle will be deprived of fuel.
+* Actual engines are available in composite and in component forms for modularity and greater control over the two engine modes.
+* When attaching the discreet ramjet to attach the discreet rocket nozzle after, be sure to detach the ramjet (with rocket) after, then re-attach in symmetry. Fuel flow breaks with this new concept of attaching an engine through an engine.
 * Intercooler module is on by default but can be switched off unlike the similar one in Thor Tech.
