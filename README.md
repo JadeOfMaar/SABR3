@@ -10,8 +10,7 @@ The precooler nacelle does not hold fuel but effectively emulates the intercoole
 * Requires [B9 Part Switch](https://github.com/blowfishpro/B9PartSwitch/releases)
 * Requires [Deep Sky Core](https://github.com/JadeOfMaar/DSCore/releases)
   * Deep Sky Core requires [Community Resource Pack](https://github.com/BobPalmer/CommunityResourcePack/releases)
-* Integrates with Cryogenic Engines (WIP)
-* Performance buff for upscaled systems (TBD)
+* Performance buff for upscaled systems (WIP)
 
 ### Notes
 * Actual engines are available in composite and in component forms for modularity and greater control over the two engine modes.
