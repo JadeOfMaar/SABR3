@@ -63,3 +63,56 @@
 		}
 	}
 }
+
+@PART[dss2_scimitar]:FOR[SabreSterling]:NEEDS[CryoEngines]
+{
+	@EFFECTS
+	{
+		@running_wet
+		{
+			@MODEL_MULTI_PARTICLE[shock2]
+			{
+				@modelName = DeepSky/00DeepSky/FX/SSME25_Shock
+			}
+			@MODEL_MULTI_PARTICLE[smoke2]
+			{
+				@modelName = DeepSky/00DeepSky/FX/SSME25_Plume
+			}
+		}
+		@running_dry
+		{
+			@MODEL_MULTI_PARTICLE[shock1]
+			{
+				@modelName = DeepSky/00DeepSky/FX/SSME25_Shock
+			}
+			@MODEL_MULTI_PARTICLE[smoke1]
+			{
+				@modelName = DeepSky/00DeepSky/FX/SSME25_Plume
+			}
+		}
+	}
+	@MODULE[ModuleEnginesFX]:HAS[#engineID[Dry]]
+	{
+		@PROPELLANT[LiquidFuel]
+		{
+			@name = LqdHydrogen
+			@ratio = 0.75
+		}
+		@PROPELLANT[IntakeAir]
+		{
+			@ratio = 0.3
+		}
+	}
+	@MODULE[ModuleEnginesFX]:HAS[#engineID[Wet]]
+	{
+		@PROPELLANT[LiquidFuel]
+		{
+			@name = LqdHydrogen
+			@ratio = 1.5
+		}
+		@PROPELLANT[IntakeAir]
+		{
+			@ratio = 0.3
+		}
+	}
+}
