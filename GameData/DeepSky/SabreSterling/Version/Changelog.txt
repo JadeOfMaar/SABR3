@@ -1,3 +1,12 @@
+0.2.0.0 * 2018-08-15
+- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - - 
+
+* Added SCIMITAR 2.5m engine
+* Added emissive animation to SABR3 Precedent engines
+* Added Isp upgrade for most engines
+* Updated patches
+
+
 0.1.0.0 * 2018-07-27
 - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - - 
 
