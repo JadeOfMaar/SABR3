@@ -1,30 +1,5 @@
 @PART[dss3_sabre*|dss2_sabre*]:FOR[SabreSterling]:NEEDS[CryoEngines]
 {
-	@EFFECTS
-	{
-		@running_closed
-		{
-			@MODEL_MULTI_PARTICLE[shock]
-			{
-				@modelName = DeepSky/00DeepSky/FX/SSME25_Shock
-			}
-			@MODEL_MULTI_PARTICLE[smoke]
-			{
-				@modelName = DeepSky/00DeepSky/FX/SSME25_Plume
-			}
-		}
-		@power_open
-		{
-			@MODEL_MULTI_PARTICLE[smoke]
-			{
-				@modelName = DeepSky/00DeepSky/FX/Vector_Plume
-			}
-			@MODEL_MULTI_PARTICLE[shock]
-			{
-				@modelName = Squad/FX/shockExhaust_blue_small
-			}
-		}
-	}
 	@MODULE[ModuleEnginesFX]:HAS[#engineID[AirBreathing]]
 	{
 		@PROPELLANT[LiquidFuel]
@@ -50,9 +25,9 @@
 		}
 		@atmosphereCurve
 		{
-				@key,0 = 0 455 8.697509E-05 -67.07525
-				@key,1 = 1 190 -185.0063 -185.0063
-				@key,2 = 4 0.001 -4.415601E-05 -4.415601E-05
+			@key,0 = 0 455 8.697509E-05 -67.07525
+			@key,1 = 1 190 -185.0063 -185.0063
+			@key,2 = 4 0.001 -4.415601E-05 -4.415601E-05
 		}
 		@atmCurve
 		{
@@ -66,31 +41,6 @@
 
 @PART[dss2_scimitar]:FOR[SabreSterling]:NEEDS[CryoEngines]
 {
-	@EFFECTS
-	{
-		@running_wet
-		{
-			@MODEL_MULTI_PARTICLE[shock2]
-			{
-				@modelName = DeepSky/00DeepSky/FX/SSME25_Shock
-			}
-			@MODEL_MULTI_PARTICLE[smoke2]
-			{
-				@modelName = DeepSky/00DeepSky/FX/SSME25_Plume
-			}
-		}
-		@running_dry
-		{
-			@MODEL_MULTI_PARTICLE[shock1]
-			{
-				@modelName = DeepSky/00DeepSky/FX/SSME25_Shock
-			}
-			@MODEL_MULTI_PARTICLE[smoke1]
-			{
-				@modelName = DeepSky/00DeepSky/FX/SSME25_Plume
-			}
-		}
-	}
 	@MODULE[ModuleEnginesFX]:HAS[#engineID[Dry]]
 	{
 		@PROPELLANT[LiquidFuel]
