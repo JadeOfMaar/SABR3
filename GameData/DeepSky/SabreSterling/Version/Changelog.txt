@@ -1,4 +1,4 @@
-0.3.0.0 * 2018-xx-xx
+0.3.0.0 * 2019-01-22
 
 * Obsolete -> Rapier-replacing engine
 * Minor adjustment to performance rescale
@@ -6,6 +6,7 @@
 * Minor geometry fix/adjustment on SABR2 intake and SABR3 rocket(s)
 * Minor balance pass on intakes
 * B9PS updates and joint strength buff on SABR3 intercoolers
+* Added engine cowls
 
 0.2.0.0 * 2018-08-15
 - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - - 
