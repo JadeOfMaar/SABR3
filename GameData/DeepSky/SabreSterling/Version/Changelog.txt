@@ -1,5 +1,10 @@
-0.3.0.0 * 2019-01-22
+0.3.0.1 * 2019-01-22
+- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - - 
+* Updated normal maps
 
+
+0.3.0.0 * 2019-01-22
+- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - - 
 * Obsolete -> Rapier-replacing engine
 * Minor adjustment to performance rescale
 * Update/replace plumes
@@ -8,9 +13,9 @@
 * B9PS updates and joint strength buff on SABR3 intercoolers
 * Added engine cowls
 
+
 0.2.0.0 * 2018-08-15
 - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - - 
-
 * Added SCIMITAR 2.5m engine
 * Added emissive animation to SABR3 Precedent engines
 * Added Isp upgrade for most engines
@@ -19,5 +24,4 @@
 
 0.1.0.0 * 2018-07-27
 - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - - 
-
 * First pre-release.
