@@ -1,36 +1,36 @@
 0.4.0.0 * 2019-04-22
 - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -
-* Added heat emissive to all engines
-* Enabled cryoengine patch
-* Upgrades now available to air-breathing and closed-cycle in all engines except SCIMITAR Advent
-* adjust drag cubes in cowls
-* change plumes again
-* finish heat emm textures
-* add spec map to main textures for engines
+* Finished existing heat emissive textures.
+* Added heat emissive to all engines.
+* Enabled cryoengine patch.
+* Upgrades now available to air-breathing and closed-cycle in all engines except SCIMITAR Advent.
+* Adjusted drag cubes in cowls.
+* Changed plumes again.
+* Added spec map to main textures for engines.
 
 
 0.3.1.0 * 2019-01-22
 - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -
-* Updated normal maps
+* Updated normal maps.
 
 
 0.3.0.0 * 2019-01-22
 - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -
-* Obsolete -> Rapier-replacing engine
-* Minor adjustment to performance rescale
-* Update/replace plumes
-* Minor geometry fix/adjustment on SABR2 intake and SABR3 rocket(s)
-* Minor balance pass on intakes
-* B9PS updates and joint strength buff on SABR3 intercoolers
-* Added engine cowls
+* Obsolete -> Rapier-replacing engine.
+* Minor adjustment to performance rescale.
+* Update/replace plumes.
+* Minor geometry fix/adjustment on SABR2 intake and SABR3 rocket(s).
+* Minor balance pass on intakes.
+* B9PS updates and joint strength buff on SABR3 intercoolers.
+* Added engine cowls.
 
 
 0.2.0.0 * 2018-08-15
 - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -
-* Added SCIMITAR 2.5m engine
-* Added emissive animation to SABR3 Precedent engines
-* Added Isp upgrade for most engines
-* Updated patches
+* Added SCIMITAR 2.5m engine.
+* Added emissive animation to SABR3 Precedent engines.
+* Added Isp upgrade for most engines.
+* Updated patches.
 
 
 0.1.0.0 * 2018-07-27
