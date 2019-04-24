@@ -5,8 +5,8 @@
 * Upgrades now available to air-breathing and closed-cycle in all engines except SCIMITAR Advent
 * adjust drag cubes in cowls
 * change plumes again
-* check emm textures
-* add sepc map to amin textures for engines
+* finish heat emm textures
+* add spec map to main textures for engines
 
 
 0.3.1.0 * 2019-01-22
