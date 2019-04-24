@@ -1,10 +1,21 @@
-0.3.0.1 * 2019-01-22
-- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - - 
+0.4.0.0 * 2019-04-22
+- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -
+* Added heat emissive to all engines
+* Enabled cryoengine patch
+* Upgrades now available to air-breathing and closed-cycle in all engines except SCIMITAR Advent
+* adjust drag cubes in cowls
+* change plumes again
+* check emm textures
+* add sepc map to amin textures for engines
+
+
+0.3.1.0 * 2019-01-22
+- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -
 * Updated normal maps
 
 
 0.3.0.0 * 2019-01-22
-- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - - 
+- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -
 * Obsolete -> Rapier-replacing engine
 * Minor adjustment to performance rescale
 * Update/replace plumes
@@ -15,7 +26,7 @@
 
 
 0.2.0.0 * 2018-08-15
-- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - - 
+- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -
 * Added SCIMITAR 2.5m engine
 * Added emissive animation to SABR3 Precedent engines
 * Added Isp upgrade for most engines
@@ -23,5 +34,5 @@
 
 
 0.1.0.0 * 2018-07-27
-- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - - 
+- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -
 * First pre-release.
