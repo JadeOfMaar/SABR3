@@ -1,3 +1,10 @@
+0.4.1.0 * 2019-04-22
+- - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -
+
+* Added bottom stack nodes to all engines (except SCIMITAR).
+* JNSQ detection. Scale intercooler power accordingly.
+
+
 0.4.0.0 * 2019-04-22
 - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -
 * Finished existing heat emissive textures.
