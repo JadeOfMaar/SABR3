@@ -1,8 +1,9 @@
-0.4.1.0 * 2019-04-22
+0.5.0.0 * 2019-06-19
 - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -  - - - -
 
 * Added bottom stack nodes to all engines (except SCIMITAR).
 * JNSQ detection. Scale intercooler power accordingly.
+* Added WIP Dark Mode.
 
 
 0.4.0.0 * 2019-04-22
